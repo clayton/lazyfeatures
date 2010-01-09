@@ -1,0 +1,4 @@
+Rakefile
+lib/lazyfeatures.rb
+lib/lazyfeatures/parser.rb
+Manifest

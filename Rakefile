@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('lazyfeatures', '0.0.1') do |p|
+Echoe.new('lazyfeatures', '0.0.2') do |p|
   p.description    = "Lazily create Cucumber features for your Rails app"
   p.url            = "http://github.com/claytonlz/lazyfeatures"
   p.author         = "Clayton Lengel-Zigich"

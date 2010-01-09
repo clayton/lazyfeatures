@@ -1,0 +1,11 @@
+== 0.0.2 2010-01-09
+
+Adding the first pieces of functionality. Adding the Parser class.
+
+=== New Features
+* LazyFeatures::Parser able to parse the resource names out of the routes file for singleton and collection resources
+
+
+== 0.0.1 2010-01-09
+
+The initial project setup, getting the gem built and pushed to gemcutter

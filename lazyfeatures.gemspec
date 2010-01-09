@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{lazyfeatures}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Clayton Lengel-Zigich"]
@@ -10,10 +10,10 @@ Gem::Specification.new do |s|
   s.date = %q{2010-01-09}
   s.description = %q{Lazily create Cucumber features for your Rails app}
   s.email = %q{clayton@claytonlz.com}
-  s.extra_rdoc_files = ["lib/lazyfeatures.rb", "lib/lazyfeatures/base.rb", "lib/lazyfeatures/parser.rb"]
-  s.files = ["Rakefile", "lib/lazyfeatures.rb", "lib/lazyfeatures/base.rb", "lib/lazyfeatures/parser.rb", "Manifest", "lazyfeatures.gemspec"]
+  s.extra_rdoc_files = ["README.textile", "lib/lazyfeatures.rb", "lib/lazyfeatures/base.rb", "lib/lazyfeatures/parser.rb"]
+  s.files = ["History.txt", "Manifest", "README.textile", "Rakefile", "lazyfeatures.gemspec", "lib/lazyfeatures.rb", "lib/lazyfeatures/base.rb", "lib/lazyfeatures/parser.rb", "spec/fixtures/routes.rb", "spec/lib/base_spec.rb", "spec/lib/parser_spec.rb", "spec/spec.opts", "spec/spec_helper.rb"]
   s.homepage = %q{http://github.com/claytonlz/lazyfeatures}
-  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Lazyfeatures"]
+  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Lazyfeatures", "--main", "README.textile"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{lazyfeatures}
   s.rubygems_version = %q{1.3.5}
